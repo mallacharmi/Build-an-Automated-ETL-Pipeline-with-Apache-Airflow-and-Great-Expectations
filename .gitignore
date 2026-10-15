@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files with secrets
+.env
+
+# Great Expectations uncommitted files
+great_expectations/uncommitted/
+
+# Airflow logs and run files
+logs/
+*.pid
+
+# Data files (keep directory placeholders)
+data/raw/*
+!data/raw/.gitkeep
+data/bronze/*
+!data/bronze/.gitkeep
+data/silver/*
+!data/silver/.gitkeep
+data/*.db
+data/*.sqlite

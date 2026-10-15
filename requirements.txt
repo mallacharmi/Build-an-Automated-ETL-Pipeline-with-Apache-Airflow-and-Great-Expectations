@@ -1,0 +1,11 @@
+# Core ETL and Data Processing Dependencies
+pandas>=2.0.0,<2.3.0
+pyarrow>=14.0.0,<17.0.0
+requests>=2.31.0,<3.0.0
+
+# Data Quality Assurance
+great-expectations>=0.18.0
+
+# Testing Framework
+pytest>=7.4.0,<9.0.0
+pytest-cov>=4.1.0
